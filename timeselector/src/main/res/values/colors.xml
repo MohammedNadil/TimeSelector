@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="start_color">#FA7495</color>
+    <color name="start_color2">#FEDE44</color>
+    <color name="end_color2">#FA7495</color>
+    <color name="end_color">#FEDE44</color>
+    <color name="yellow_border">#FDC159</color>
+    <color name="selected_white">#CCFAE9E9</color>
+</resources>

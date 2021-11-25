@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimerPickView">
+        <attr name="addBorderColor" format="color"/>
+        <attr name="addStartColor" format="color"/>
+        <attr name="addEndColor" format="color"/>
+        <attr name="addbodyColor" format="color"/>
+        <attr name="addselectColor" format="color"/>
+        <attr name="addlineColor" format="color"/>
+        <attr name="addtextColor" format="color"/>
+        <attr name="addEndTime" format="integer"/>
+    </declare-styleable>
+</resources>
