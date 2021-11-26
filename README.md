@@ -17,7 +17,7 @@ Step 1. Add the JitPack repository to your build file
 Step 2. Add the dependency
 
 	dependencies {
-		implementation 'com.github.User:Repo:1.2'
+		  implementation 'com.github.MohammedNadil:TimeSelector:1.2'
 	}
 
 Can customize following colors and max time
