@@ -301,4 +301,19 @@ class TimerPickView @JvmOverloads constructor(
     fun getSelectedTime(): Int {
         return seltime
     }
+
+    fun setMax(it: Int) {
+        endTime = if (it < 15) {
+            15
+        }else{
+            it
+        }
+        invalidate()
+    }
+
+    fun reset() {
+        selectprogress = 0f + margin
+        invalidate()
+    }
+
 }

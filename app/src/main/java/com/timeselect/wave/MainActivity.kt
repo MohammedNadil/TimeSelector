@@ -14,6 +14,8 @@ class MainActivity : AppCompatActivity(), TimeChanger {
         scaleView = findViewById(R.id.timepickview)
         scaleView.setTimeChangeListener(this)
 
+        scaleView.setMax(50)
+        scaleView.reset()
 
         val currentTime = scaleView.getSelectedTime()
         Log.d("MainActivity", "time = $currentTime")
