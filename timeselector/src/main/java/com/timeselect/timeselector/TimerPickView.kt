@@ -53,8 +53,8 @@ class TimerPickView @JvmOverloads constructor(
         )
 
         endTime = typedArray.getInt(R.styleable.TimerPickView_addEndTime, 60)
-        if (endTime < 15) {
-            endTime = 15
+        if (endTime < 0) {
+            endTime = 0
         }
 
         start_color = typedArray.getColor(
@@ -104,7 +104,7 @@ class TimerPickView @JvmOverloads constructor(
 
         textsetColor.apply {
             color = textColor
-            textSize = 40F
+            textSize = 35F
         }
 
 
@@ -303,8 +303,8 @@ class TimerPickView @JvmOverloads constructor(
     }
 
     fun setMax(it: Int) {
-        endTime = if (it < 15) {
-            15
+        endTime = if (it < 0) {
+            0
         }else{
             it
         }
